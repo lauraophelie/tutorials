@@ -1,0 +1,42 @@
+https://docs.google.com/document/d/1wu5GQwEPSZnSwGDufnKmcXzzamke73bP/edit?usp=sharing&ouid=103450637156955183816&rtpof=true&sd=true
+
+https://docs.google.com/spreadsheets/d/1n-yrpNhk-QcEuoZ7ztW6NW9h9du6rYS7Zj8GZ8kOdzw/edit?usp=sharing
+
+Mise en place d'un système décisionnel au sein de [nom de l'organisation] : ETL, Datawarehouse et tableau de bord Power BI
+
+Conception d'un tableau de bord intelligent pour le pilotage de [activité/secteur] : approche ETL et Datawarehouse sous Power BI
+
+Optimisation de la prise de décision dans [secteur] grâce à une solution BI : cas d'un datawarehouse et d'un tableau de bord Power BI
+
+Digitalisation du reporting dans [secteur] : conception d'une chaîne ETL – Datawarehouse – Power BI
+
+
+
+Conception et mise en œuvre d'une solution décisionnelle : ETL, Datawarehouse et tableau de bord intelligent sous Power BI
+
+Mise en place d'une chaîne décisionnelle de bout en bout : de l'ETL au tableau de bord Power BI
+
+Conception d'un système décisionnel : ETL, Datawarehouse et reporting intelligent sous Power BI
+
+Développement d'une solution Business Intelligence : ETL, Datawarehouse et tableau de bord sous Power BI
+
+Mise en place d'un pipeline ETL et d'un datawarehouse pour la conception d'un tableau de bord décisionnel sous Power BI
+
+« Conception et mise en œuvre d'une solution décisionnelle : ETL, Datawarehouse et tableau de bord intelligent sous Power BI »
+
+
+Dans le cadre de ce stage, il s'agit de concevoir et de mettre en place une chaîne décisionnelle complète 
+permettant de transformer des données brutes en informations utiles à la prise de décision. 
+La mission débutera par la collecte et l'extraction des données depuis différentes sources, 
+suivies de leur transformation et de leur chargement (ETL) dans un entrepôt de données (Datawarehouse) structuré et optimisé. 
+À partir de cet entrepôt, un tableau de bord intelligent sera développé sous Power BI, offrant une visualisation claire, interactive et dynamique des 
+indicateurs clés de performance (KPI). L'objectif final est de doter l'organisation d'un outil de pilotage fiable, 
+actualisé et facilitant l'analyse et la prise de décision.
+
+Objectifs spécifiques :
+
+Identifier et extraire les données depuis les sources existantes
+Mettre en place un processus ETL (Extract – Transform – Load)
+Concevoir et alimenter un Datawarehouse
+Développer un tableau de bord intelligent et interactif sous Power BI
+Restituer les indicateurs clés pour appuyer la prise de décision
