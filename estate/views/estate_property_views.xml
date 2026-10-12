@@ -37,7 +37,7 @@
         <field name="name">estate.property.list</field>
         <field name="model">estate_property</field>
         <field name="arch" type="xml">
-            <list string="Properties">
+            <list string="Properties" decoration-success="state == 'sold'" decoration-danger="state == 'cancelled'">
                 <field name="name"/>
                 <field name="property_type_id"/>
                 <field name="tag_ids" widget="many2many_tags"/>
@@ -62,6 +62,17 @@
         <field name="model">estate_property</field>
         <field name="arch" type="xml">
             <form string="Property">
+                <header>
+                    <button name="action_sold"
+                            type="object"
+                            string="Sold"
+                            class="btn-primary"/>
+                    <button name="action_cancel"
+                            type="object"
+                            string="Cancel"
+                            class="btn-secondary"/>
+                    <field name="state" widget="statusbar" statusbar_visible="new,offer_received,offer_accepted,sold"/>
+                </header>
                 <sheet>
                     <group>
                         <group>
@@ -76,9 +87,11 @@
                         <group>
                             <field name="expected_price"/>
                             <field name="selling_price"/>
+                            <field name="best_price"/>
                             <field name="bedrooms"/>
                             <field name="living_area"/>
                             <field name="facades"/>
+                            <field name="total_area"/>
                         </group>
                     </group>
 
@@ -103,6 +116,8 @@
                                 <list editable="bottom">
                                     <field name="price"/>
                                     <field name="partner_id"/>
+                                    <field name="validity"/>
+                                    <field name="date_deadline"/>
                                     <field name="status"/>
                                 </list>
                             </field>
