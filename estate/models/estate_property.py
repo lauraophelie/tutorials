@@ -5,6 +5,7 @@ from odoo.tools.float_utils import float_compare, float_is_zero
 class EstateProperty(models.Model):
     _name = "estate_property"
     _description = "Estate Property"
+    _order = "id desc"
 
     name = fields.Char('Name', required=True)
     property_type_id = fields.Many2one("estate.property.type", string="Property Type")
