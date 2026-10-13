@@ -1,0 +1,4 @@
+2026-10-13 17:13:39 [INFO] Log file: D:\HelpDesk\odoo-18.0\scripts\logs\import_2026-10-13_17-13-39.log
+2026-10-13 17:13:40 [INFO] Connexion à la base 'mydb'...
+2026-10-13 17:13:41 [ERROR] Feuille 'Properties' introuvable. Feuilles : ['Feuille1']
+2026-10-13 17:13:41 [INFO] Mode dry-run : rien n'a été écrit.

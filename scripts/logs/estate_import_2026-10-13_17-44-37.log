@@ -1,0 +1,24 @@
+2026-10-13 17:44:37 [INFO    ] estate_import: Log file: D:\HelpDesk\odoo-18.0\scripts\logs\estate_import_2026-10-13_17-44-37.log
+2026-10-13 17:44:37 [INFO    ] estate_import: Démarrage de l'import (dry_run=True)
+2026-10-13 17:44:37 [INFO    ] estate_import: Fichier Excel : scripts\data\properties.xlsx
+2026-10-13 17:44:37 [ERROR   ] estate_import: Erreur de lecture : [Errno 2] No such file or directory: 'scripts\\data\\properties.xlsx'
+Traceback (most recent call last):
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\__main__.py", line 49, in main
+    properties = reader.read()
+                 ^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\readers.py", line 59, in read
+    wb = load_workbook(self.file_path, data_only=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo-env\Lib\site-packages\openpyxl\reader\excel.py", line 315, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo-env\Lib\site-packages\openpyxl\reader\excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo-env\Lib\site-packages\openpyxl\reader\excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Laura Ophélie\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1294, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'scripts\\data\\properties.xlsx'

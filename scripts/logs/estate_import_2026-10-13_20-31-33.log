@@ -1,0 +1,69 @@
+2026-10-13 20:31:33 [INFO    ] estate_import: Log file: D:\HelpDesk\odoo-18.0\scripts\logs\estate_import_2026-10-13_20-31-33.log
+2026-10-13 20:31:33 [INFO    ] estate_import: Démarrage de l'import (dry_run=True)
+2026-10-13 20:31:33 [INFO    ] estate_import: Fichier Excel : data\properties.xlsx
+2026-10-13 20:31:33 [INFO    ] estate_import: 3 propriétés lues
+2026-10-13 20:31:33 [INFO    ] estate_import: 3 propriétés valides sur 3
+2026-10-13 20:31:33 [INFO    ] estate_import: Connexion à la base 'mydb'...
+2026-10-13 20:31:34 [ERROR   ] estate_import: Erreur sur 'Villa Bleue' : 'estate.property'
+Traceback (most recent call last):
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\services.py", line 122, in import_all
+    stats = self.import_property(prop_dto)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\services.py", line 64, in import_property
+    existing = self.properties.find_by_name(dto.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\repositories.py", line 91, in find_by_name
+    return self.env[self.MODEL].search([("name", "=", name)], limit=1)
+           ~~~~~~~~^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo\api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo\modules\registry.py", line 234, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.property'
+2026-10-13 20:31:34 [ERROR   ] estate_import: Erreur sur 'Appart Centre' : 'estate.property'
+Traceback (most recent call last):
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\services.py", line 122, in import_all
+    stats = self.import_property(prop_dto)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\services.py", line 64, in import_property
+    existing = self.properties.find_by_name(dto.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\repositories.py", line 91, in find_by_name
+    return self.env[self.MODEL].search([("name", "=", name)], limit=1)
+           ~~~~~~~~^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo\api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo\modules\registry.py", line 234, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.property'
+2026-10-13 20:31:34 [ERROR   ] estate_import: Erreur sur 'Studio Moderne' : 'estate.property'
+Traceback (most recent call last):
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\services.py", line 122, in import_all
+    stats = self.import_property(prop_dto)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\services.py", line 64, in import_property
+    existing = self.properties.find_by_name(dto.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\scripts\estate_import\repositories.py", line 91, in find_by_name
+    return self.env[self.MODEL].search([("name", "=", name)], limit=1)
+           ~~~~~~~~^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo\api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo\modules\registry.py", line 234, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.property'
+2026-10-13 20:31:34 [INFO    ] estate_import: Mode dry-run : rollback
+2026-10-13 20:31:34 [INFO    ] estate_import: ==================================================
+2026-10-13 20:31:34 [INFO    ] estate_import: RAPPORT D'IMPORT
+2026-10-13 20:31:34 [INFO    ] estate_import: ==================================================
+2026-10-13 20:31:34 [INFO    ] estate_import: Propriétés créées : 0
+2026-10-13 20:31:34 [INFO    ] estate_import: Types créés      : 0
+2026-10-13 20:31:34 [INFO    ] estate_import: Tags créés       : 0
+2026-10-13 20:31:34 [INFO    ] estate_import: Offres créées    : 0
+2026-10-13 20:31:34 [INFO    ] estate_import: Erreurs          : 3

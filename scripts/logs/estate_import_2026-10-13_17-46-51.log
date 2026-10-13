@@ -1,0 +1,5 @@
+2026-10-13 17:46:51 [INFO    ] estate_import: Log file: D:\HelpDesk\odoo-18.0\scripts\logs\estate_import_2026-10-13_17-46-51.log
+2026-10-13 17:46:51 [INFO    ] estate_import: Démarrage de l'import (dry_run=True)
+2026-10-13 17:46:51 [INFO    ] estate_import: Fichier Excel : ..\scripts\data\properties.xlsx
+2026-10-13 17:46:51 [INFO    ] estate_import: 3 propriétés lues
+2026-10-13 17:46:51 [INFO    ] estate_import: 3 propriétés valides sur 3

@@ -1,0 +1,17 @@
+2026-10-13 17:15:08 [INFO] Log file: D:\HelpDesk\odoo-18.0\scripts\logs\import_2026-10-13_17-15-08.log
+2026-10-13 17:15:08 [INFO] Connexion à la base 'mydb'...
+2026-10-13 17:15:09 [INFO] Colonnes détectées : ['name', 'property_type', 'tag1', 'tag2', 'postcode', 'expected_price', 'bedrooms', 'living_area', 'garden', 'garden_area', 'garden_orientation']
+2026-10-13 17:15:09 [ERROR] Erreur fatale, rollback : 'estate.property'
+Traceback (most recent call last):
+  File "D:\HelpDesk\odoo-18.0\scripts\import_data.py", line 220, in main
+    import_properties(env, Path(args.file), args.sheet, logger, dry_run=args.dry_run)
+  File "D:\HelpDesk\odoo-18.0\scripts\import_data.py", line 121, in import_properties
+    Property = env["estate.property"]
+               ~~~^^^^^^^^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo\api.py", line 614, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\HelpDesk\odoo-18.0\odoo\modules\registry.py", line 234, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'estate.property'

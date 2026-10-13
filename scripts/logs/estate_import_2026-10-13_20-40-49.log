@@ -1,0 +1,22 @@
+2026-10-13 20:40:49 [INFO    ] estate_import: Log file: D:\HelpDesk\odoo-18.0\scripts\logs\estate_import_2026-10-13_20-40-49.log
+2026-10-13 20:40:49 [INFO    ] estate_import: Démarrage de l'import (dry_run=False)
+2026-10-13 20:40:49 [INFO    ] estate_import: Fichier Excel : data\properties.xlsx
+2026-10-13 20:40:49 [INFO    ] estate_import: 3 propriétés lues
+2026-10-13 20:40:49 [INFO    ] estate_import: 3 propriétés valides sur 3
+2026-10-13 20:40:49 [INFO    ] estate_import: Connexion à la base 'mydb'...
+2026-10-13 20:40:50 [INFO    ] estate_import: Propriété créée : Villa Bleue 2 (id=14)
+2026-10-13 20:40:50 [INFO    ] estate_import: Offre créée : Dupont (340000.0 €) pour Villa Bleue 2
+2026-10-13 20:40:50 [INFO    ] estate_import: Offre créée : Martin (330000.0 €) pour Villa Bleue 2
+2026-10-13 20:40:50 [INFO    ] estate_import: Propriété créée : Appart Centre 22 (id=15)
+2026-10-13 20:40:50 [INFO    ] estate_import: Offre créée : Durand (175000.0 €) pour Appart Centre 22
+2026-10-13 20:40:50 [INFO    ] estate_import: Propriété créée : Studio Moderne 45 (id=16)
+2026-10-13 20:40:50 [INFO    ] estate_import: Offre créée : Petit (92000.0 €) pour Studio Moderne 45
+2026-10-13 20:40:50 [INFO    ] estate_import: Transaction commitée
+2026-10-13 20:40:50 [INFO    ] estate_import: ==================================================
+2026-10-13 20:40:50 [INFO    ] estate_import: RAPPORT D'IMPORT
+2026-10-13 20:40:50 [INFO    ] estate_import: ==================================================
+2026-10-13 20:40:50 [INFO    ] estate_import: Propriétés créées : 3
+2026-10-13 20:40:50 [INFO    ] estate_import: Types créés      : 0
+2026-10-13 20:40:50 [INFO    ] estate_import: Tags créés       : 0
+2026-10-13 20:40:50 [INFO    ] estate_import: Offres créées    : 4
+2026-10-13 20:40:50 [INFO    ] estate_import: Erreurs          : 0

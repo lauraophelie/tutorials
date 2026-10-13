@@ -1,0 +1,15 @@
+2026-10-13 20:39:33 [INFO    ] estate_import: Log file: D:\HelpDesk\odoo-18.0\scripts\logs\estate_import_2026-10-13_20-39-33.log
+2026-10-13 20:39:33 [INFO    ] estate_import: Démarrage de l'import (dry_run=True)
+2026-10-13 20:39:33 [INFO    ] estate_import: Fichier Excel : data\properties.xlsx
+2026-10-13 20:39:33 [INFO    ] estate_import: 3 propriétés lues
+2026-10-13 20:39:33 [INFO    ] estate_import: 3 propriétés valides sur 3
+2026-10-13 20:39:33 [INFO    ] estate_import: Connexion à la base 'mydb'...
+2026-10-13 20:39:34 [INFO    ] estate_import: Mode dry-run : rollback
+2026-10-13 20:39:34 [INFO    ] estate_import: ==================================================
+2026-10-13 20:39:34 [INFO    ] estate_import: RAPPORT D'IMPORT
+2026-10-13 20:39:34 [INFO    ] estate_import: ==================================================
+2026-10-13 20:39:34 [INFO    ] estate_import: Propriétés créées : 0
+2026-10-13 20:39:34 [INFO    ] estate_import: Types créés      : 0
+2026-10-13 20:39:34 [INFO    ] estate_import: Tags créés       : 0
+2026-10-13 20:39:34 [INFO    ] estate_import: Offres créées    : 0
+2026-10-13 20:39:34 [INFO    ] estate_import: Erreurs          : 0

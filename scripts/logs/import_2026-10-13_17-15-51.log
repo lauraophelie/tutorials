@@ -1,0 +1,17 @@
+2026-10-13 17:15:51 [INFO] Log file: D:\HelpDesk\odoo-18.0\scripts\logs\import_2026-10-13_17-15-51.log
+2026-10-13 17:15:51 [INFO] Connexion à la base 'mydb'...
+2026-10-13 17:15:52 [INFO] Colonnes détectées : ['name', 'property_type', 'tag1', 'tag2', 'postcode', 'expected_price', 'bedrooms', 'living_area', 'garden', 'garden_area', 'garden_orientation']
+2026-10-13 17:15:52 [INFO] --- Ligne 2 : Villa Bleue ---
+2026-10-13 17:15:52 [INFO] Created estate.property.tag: Jardin (id=5)
+2026-10-13 17:15:52 [INFO] Created estate.property.tag: Piscine (id=6)
+2026-10-13 17:15:52 [INFO] Propriété créée : Villa Bleue (id=11)
+2026-10-13 17:15:52 [INFO] --- Ligne 3 : Appart Centre ---
+2026-10-13 17:15:52 [INFO] Created estate.property.type: Appartement (id=5)
+2026-10-13 17:15:52 [INFO] Created estate.property.tag: Centre (id=7)
+2026-10-13 17:15:52 [INFO] Propriété créée : Appart Centre (id=12)
+2026-10-13 17:15:52 [INFO] --- Ligne 4 : Studio Moderne ---
+2026-10-13 17:15:52 [INFO] Created estate.property.type: Studio (id=6)
+2026-10-13 17:15:52 [INFO] Created estate.property.tag: Moderne (id=8)
+2026-10-13 17:15:52 [INFO] Propriété créée : Studio Moderne (id=13)
+2026-10-13 17:15:52 [INFO] === Terminé : 3 créées, 0 ignorées ===
+2026-10-13 17:15:52 [INFO] Transaction commitée.
